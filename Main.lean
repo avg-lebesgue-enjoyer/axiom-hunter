@@ -1,4 +1,3 @@
-import AxiomHunter
+import «AxiomHunter»
 
-def main : IO Unit :=
-  IO.println s!"Hello, {hello}!"
+def main : IO Unit := AxiomHunter.printEm
