@@ -1,0 +1,10 @@
+name = "AxiomHunter"
+version = "0.1.0"
+defaultTargets = ["axiomhunter"]
+
+[[lean_lib]]
+name = "AxiomHunter"
+
+[[lean_exe]]
+name = "axiomhunter"
+root = "Main"
